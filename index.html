@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="icon" href="img/favicon.ico">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>lesson_5</title>
+</head>
+
+<body>
+   <header>
+      <div>
+         <h1>Домашка</h1>
+         <ul class="list-up">
+            <li><a href="#fonts" class="list-up-item1">CSS-властивості шрифтів</a></li>
+            <li><a href="#text" class="list-up-item2">CSS-властивості тексту</a></li>
+            <li> <a href="#block" class="list-up-item3">CSS-властивості блоків</a></li>
+         </ul>
+      </div>
+   </header>
+   <main>
+      <div>
+         <h2 id="fonts">CSS-властивості шрифтів</h2>
+         <div class="chapter">
+            <h3>Встановлює родину шрифту</h3>
+            <img src="img/01.jpg" alt="приклад запису родини шрифту">
+            <p>успадковується</p>
+            <h3>Типи шрифтів:</h3>
+            <div class="example">
+               <p class="serif"> <span class="italic">serif</span> — шрифт з зарубками (засічками);</p>
+               <p class="sans-serif"><span class="italic">sans-serif</span> — рублений (без зарубок);</p>
+               <p class="cursive">cursive — курсивні шрифти;</p>
+               <p class="fantasy">fantasy — декоративні;</p>
+               <p class="monospace">monospace — моноширинні.</p>
+            </div>
+            <img src="img/02.jpg" alt="приклад запису родини шрифту">
+         </div>
+         <div class="chapter">
+            <h3>Встановлює розмір шрифту</h3>
+            <img src="img/03.jpg" alt="приклад запису розміру шрифта">
+            <p>(за замовчунням 16px, якщо в браузері не вказано іншого)</p>
+            <p>успадковується</p>
+            <img src="img/04.jpg" alt="приклад запису розміру шрифта">
+            <div class="example">
+               <p class="serif thirty">font-size: 30px Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                  quam?</p>
+               <p class="serif twenty">font-size: 20px Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                  quam?</p>
+               <p class="serif ten">font-size: 10px Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                  quam?
+               </p>
+            </div>
+            <div class="chapter">
+               <h3>Встановлює стиль шрифту</h3>
+               <img src="img/05.jpg" alt="приклад запису стилю шрифта">
+               <p>успадковується</p>
+               <ul>
+                  <li> <span class="italic">normal</span> (за замовчуванням) - звичайний (не змінений, стандартний)
+                     стиль;</li>
+                  <li> <span class="italic">italic</span> - курсив;</li>
+                  <li> <span class="italic">oblique</span> - нахилення літер.</li>
+               </ul>
+               <img src="img/06.jpg" alt="приклад запису стилю шрифта">
+               <div class="example">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, soluta!</p>
+                  <p class="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptates.</p>
+                  <p class="oblique">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, neque.</p>
+               </div>
+            </div>
+            <div class="chapter">
+               <h3>Встановлює насиченість (товщину) шрифту</h3>
+               <img src="img/07.jpg" alt="приклад запису товщини шрифту">
+               <p>успадковується</p>
+               <h3>Таблиця значень</h3>
+               <ul>
+                  <li>100 - thin</li>
+                  <li>300 - lite</li>
+                  <li>400 - Regular (normal) (за замовчуванням)</li>
+                  <li>500 - medium</li>
+                  <li>600 - semibold</li>
+                  <li>700 - bold</li>
+                  <li>900 - black</li>
+               </ul>
+               <img src="img/08.jpg" alt="приклад запису товщини шрифту">
+               <div class="example pro">
+                  <p class="thin"> 100 - thin Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, tempore.
+                  </p>
+                  <p class="lite"> 300 - lite Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, adipisci.
+                  </p>
+                  <p> 400 - Regular (normal) (за замовчуванням) Lorem ipsum dolor sit, amet consectetur adipisicing
+                     elit. Eaque, atque.</p>
+                  <p class="semibold">600 - semibold Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad,
+                     laboriosam.</p>
+                  <p class="bold">700 - bold Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+                     voluptatum.</p>
+                  <p class="black">900 - black Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nihil.
+                  </p>
+               </div>
+               <div class="example larsseit">
+                  <p class="thin"> 100 - thin Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, tempore.
+                  </p>
+                  <p class="lite"> 300 - lite Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, adipisci.
+                  </p>
+                  <p> 400 - Regular (normal) Lorem ipsum dolor sit, amet consectetur adipisicing
+                     elit. Eaque, atque.</p>
+                  <p class="bold">700 - bold Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+                     voluptatum.</p>
+                  <p class="black">900 - black Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nihil.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div>
+         <h2 id="text">CSS-властивості тексту</h2>
+         <div class="chapter">
+            <h3>Встановлює колір тексту</h3>
+            <img src="img/09.jpg" alt="приклад запису коліру тексту">
+            <p>успадковується</p>
+            <img src="img/10.jpg" alt="приклад запису коліру тексту">
+            <div class="example">
+               <p class="red"> color: red; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam,
+                  excepturi.</p>
+               <p class="numbers">color: #666666; Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                  recusandae?</p>
+               <p class="rgba">color: rgba(3, 3, 3, 0.5); Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Vitae, reiciendis!</p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Встановлює вирівнювання тексту</h3>
+            <img src="img/11.jpg" alt="приклад запису вирівнювання тексту">
+            <p>успадковується (текстом)</p>
+            <ul>
+               <li>center - вирівнює по центру;</li>
+               <li>left - вирівнює по лівому краю;</li>
+               <li>right - вирівнює по правому краю;</li>
+               <li>justify - вирівнює текст по ширині об'єкту в якому він знаходиться, автоматично змінюючи пробіли між
+                  словами.</li>
+            </ul>
+            <img src="img/12.jpg" alt="приклад запису вирівнювання тексту">
+            <div class="example center">
+               <p>center</p>
+               <p>Lorem, ipsum dolor.</p>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="example left">
+               <p>left</p>
+               <p>Lorem, ipsum dolor.</p>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="example right">
+               <p>right</p>
+               <p>Lorem, ipsum dolor.</p>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="example justify">
+               <p>justify</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus! Perferendis ex veniam
+                  nobis soluta non molestias! Impedit ipsum velit, dolorum quibusdam facilis quasi ad repellendus
+                  suscipit reprehenderit error! Molestiae saepe dolor dolore eos, iure maiores libero nesciunt itaque,
+                  sit, deleniti doloremque odio laborum laboriosam ad ea nostrum corporis corrupti. Perferendis
+                  reprehenderit vel consectetur accusantium voluptatem laborum quibusdam nemo dolore sunt, eos nihil
+                  quis porro maiores sint non rerum assumenda exercitationem. Debitis dicta neque quaerat ipsam nisi
+                  nostrum mollitia exercitationem veniam temporibus illo nemo omnis earum aspernatur perspiciatis
+                  corrupti, doloribus id fugiat laborum quo numquam velit accusantium totam obcaecati! Ratione.</p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Додає тексту певне оформлення</h3>
+            <img src="img/13.jpg" alt="приклад запису text-decoration">
+            <ul>
+               <li>line-through - закреслює текст;</li>
+               <li>overline - лінія над текстом;</li>
+               <li>underline - лінія під текстом;</li>
+               <li>none - (за замовченням) відміняє змінений раніше параметр.</li>
+            </ul>
+            <img src="img/14.jpg" alt="приклад запису text-decoration">
+            <div class="example text">
+               <p class="line-through">line-through Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore,
+                  assumenda.</p>
+               <p class="overline">overline Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, libero!</p>
+               <p class="underline">underline Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, libero!
+               </p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Додає тексту тінь</h3>
+            <img src="img/15.jpg" alt="приклад запису тiнi тексту">
+            <p>успадковується (текстом)</p>
+            <p>Може бути мульти-тінь (значення через кому - text-shadow: 2px 2px 5px #000, 5px -2px 10px red;)</p>
+            <img src="img/16.jpg" alt="приклад запису тiнi тексту">
+            <div class="example text">
+               <p class="shadow">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, nam!
+               </p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Встановлює тип (регістр) літер (прописні або заглавні)</h3>
+            <img src="img/17.jpg" alt="приклад запису text-transform">
+            <p>успадковується (текстом)</p>
+            <ul>
+               <li>capitalize - кожне слово починається з заглавної літери;</li>
+               <li>lowercase - усі літери прописні (нижній регістр);</li>
+               <li>uppercase - усі літери заглавні (верхній регістр);</li>
+               <li>none - (за замовчунням) не змінює (або відмініє) значення.</li>
+            </ul>
+            <img src="img/18.jpg" alt="приклад запису text-transform">
+            <div class="example text">
+               <p class="capitalize">capitalize Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+                  laudantium!</p>
+               <p class="lowercase">lowercase Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ea.</p>
+               <p class="uppercase">uppercase Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, quo.
+               </p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Визначає міжрядковий інтервал (відстань) (висота рядка)</h3>
+            <img src="img/19.jpg" alt="приклад запису міжрядкового інтервалу">
+            <p>успадковується (текстом)</p>
+            <p><span class="red">Перевести пікселі в частини:</span> значення line-height поділити на значення font-size
+            </p>
+            <img src="img/20.jpg" alt="приклад запису міжрядкового інтервалу">
+            <div class="example">
+               <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem vero
+                  nesciunt, minima animi labore quia impedit similique a pariatur cumque nemo ut error voluptates
+                  quibusdam incidunt maxime quis voluptate enim temporibus fuga repellendus cum unde placeat. Molestias
+                  rem cupiditate temporibus optio beatae incidunt facere, ullam ipsum maiores numquam enim quas itaque
+                  non labore nulla possimus pariatur debitis odit ratione expedita velit recusandae provident corporis
+                  dolorum. Vero mollitia beatae vitae nesciunt ab. Quaerat omnis sapiente neque expedita, porro labore
+                  distinctio sit corrupti odit tempore et voluptatibus tenetur eligendi maiores nesciunt, natus
+                  dignissimos totam officiis impedit soluta, veritatis dolorum iusto facilis.</p>
+            </div>
+            <div class="example">
+               <p class="big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem molestias
+                  obcaecati, quae iusto quas! Architecto veritatis vel dolores, ad natus, optio ducimus provident beatae
+                  eligendi possimus repellat nostrum quasi error asperiores aut. Quas enim veniam et aspernatur
+                  dignissimos. Quo, consequuntur quaerat quas, quia sed repudiandae culpa reprehenderit alias quae
+                  voluptatum magnam sequi ipsa provident? Facere maxime hic deserunt harum corporis ullam doloribus.
+                  Inventore commodi officiis beatae mollitia totam fugiat unde! Autem inventore voluptate quas numquam.
+                  Quidem hic minus, modi cum deserunt tenetur porro iure, minima et eligendi inventore vel labore
+                  consectetur. Voluptate magnam facere quas vero reprehenderit. Inventore, dicta?</p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Червона строка. Встановлює відступ зліва у першого рядка тексту</h3>
+            <img src="img/21.jpg" alt="приклад запису відступу зліва">
+            <p>успадковується (текстом)</p>
+            <img src="img/22.jpg" alt="приклад запису відступу зліва">
+            <div class="example">
+               <p class="small-red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus molestiae ea
+                  ex quibusdam accusantium alias temporibus magni veniam! Nemo suscipit possimus eos quo commodi sunt
+                  corporis quasi ullam fuga doloribus, dolores obcaecati incidunt vel minus a mollitia. Temporibus
+                  voluptas, tempora exercitationem error amet quos placeat porro saepe animi nemo eligendi odio labore
+                  vitae, harum consequuntur corporis necessitatibus voluptatum, expedita optio omnis. Placeat cumque
+                  nesciunt unde magnam odit illum ea itaque iure et, at a temporibus atque aperiam, libero modi
+                  perferendis maxime facilis, expedita fugit accusamus alias excepturi! Facilis mollitia qui explicabo
+                  molestiae quo facere repellendus commodi ad fuga, minima velit!</p>
+               <p class="medium-red">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam tempore inventore
+                  modi a iste temporibus, necessitatibus aliquam sed quidem optio ipsa architecto similique animi
+                  voluptate neque et velit incidunt, accusamus assumenda. Quo, rerum est delectus aperiam, ullam illo
+                  ex, inventore sapiente excepturi aut debitis? Praesentium cum obcaecati aut a voluptate, minus nam
+                  officiis iusto laboriosam suscipit, adipisci dolor quas ad nostrum nobis! Blanditiis est debitis, aut
+                  nostrum delectus vero iusto? Porro recusandae libero ea obcaecati! Tenetur maxime blanditiis ratione
+                  beatae deserunt assumenda corporis harum doloremque qui illum eius expedita odio aperiam, quae nulla
+                  perferendis atque rem autem ipsa et recusandae.</p>
+               <p class="big-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium nostrum
+                  est, ex nesciunt beatae ipsum mollitia minus dolore accusamus eaque aut, nihil enim rem consequatur
+                  vitae illo hic iste itaque minima praesentium debitis sit blanditiis. Quia eum reiciendis aut quidem
+                  rerum natus et provident mollitia nisi alias facere nihil minus, sint perferendis quis distinctio,
+                  labore repellendus? Placeat, libero. Facilis et fugit deserunt dolorum? Accusamus libero asperiores at
+                  ullam qui harum ducimus beatae aliquam fuga natus, fugiat pariatur, doloremque est deleniti nostrum
+                  quidem sequi? Tempora cum rem modi, maxime doloremque numquam. Enim similique dolor quam expedita quia
+                  voluptatum accusantium fuga?</p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Встановлює інтервал між літерами (символами)</h3>
+            <img src="img/23.jpg" alt="приклад запису letter-spacing">
+            <p>успадковується (текстом)</p>
+            <img src="img/24.jpg" alt="приклад запису letter-spacing">
+            <div class="example">
+               <p class="leter-small">Lorem ipsum dolor sit amet.</p>
+               <p class="leter-big">Lorem ipsum dolor sit amet.</p>
+            </div>
+         </div>
+         <div class="chapter">
+            <h3>Встановлює інтервал між словами</h3>
+            <img src="img/25.jpg" alt="приклад запису word-spacing">
+            <p>успадковується (текстом)</p>
+            <img src="img/26.jpg" alt="приклад запису word-spacing">
+            <div class="example">
+               <p class="word-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, nemo!</p>
+               <p class="word-big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, animi!</p>
+            </div>
+         </div>
+      </div>
+      <div>
+         <h2 id="block">CSS-властивості блоків</h2>
+         <div class="chapter">
+            <h3 class="lesson">box-sizing</h3>
+            <p class="lesson">Застосовується для зміни алгоритму обчислення величин.</p>
+            <ul>
+               <li>content-box - (за замовченням) додає відступи до розміру об'єкту;</li>
+               <li>border-box - значення розмірів враховують відступи.</li>
+            </ul>
+         </div>
+         <div class="chapter star">
+            <h3>Відступи</h3>
+            <p>Відступи неочикувано працюють для рядкових об'єктiв</p>
+            <p>padding - Внутрішній відступ.</p>
+            <p class="red">Відступи <span class="uppercase">ВСЕРЕДЕНІ</span> об'єкту.</p>
+            <p>Від кордонів об'єкту <span class="uppercase">ДО ЙОГО КОНТЕНТУ</span>.</p>
+            <p><span class="uppercase">НЕ</span> успадковується</p>
+            <img src="img/27.jpg" alt="приклади запису padding">
+            <p>При вказанні значення у відсотках відсоток береться від ширини батьківського об'єкту, навіть для
+               горизонтальних відступів.</p>
+            <p>margin — Зовнішній відступ.</p>
+            <p class="red">Відступи <span class="uppercase">ЗОВНІ</span> об'єкту.</p>
+            <img src="img/28.jpg" alt="приклади запису margin">
+            <p>Значення можуть бути від'ємними!</p>
+         </div>
+      </div>
+
+   </main>
+   <footer>
+      <div>
+         <ul class="list-up">
+            <li><a href="#fonts" class="list-up-item1">CSS-властивості шрифтів</a></li>
+            <li><a href="#text" class="list-up-item2">CSS-властивості тексту</a></li>
+            <li> <a href="#block" class="list-up-item3">CSS-властивості блоків</a></li>
+         </ul>
+      </div>
+   </footer>
+</body>
+
+</html>

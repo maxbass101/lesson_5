@@ -1,0 +1,275 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Condensed:ital@0;1&family=Rubik+Beastly&family=Source+Code+Pro&family=Source+Serif+Pro:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+   font-family: "Le Murmure";
+   src: url("../fonts/LeMurmure-Regular.woff2") format("woff2"), url("../fonts/LeMurmure-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Thin.woff2") format("woff2"), url("../fonts/Larsseit-Thin.woff");
+   font-display: swap;
+   font-weight: 100;
+   font-size: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff");
+   font-display: swap;
+   font-weight: 400;
+   font-size: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff");
+   font-display: swap;
+   font-weight: 700;
+   font-size: normal;
+}
+@font-face {
+   font-family: "Larsseit";
+   src: url("../fonts/Larsseit-Light.woff2") format("woff2"), url("../fonts/Larsseit-Light.woff");
+   font-display: swap;
+   font-weight: 300;
+   font-size: normal;
+}
+
+body {
+   padding: 5%;
+   font-size: 18px;
+}
+
+header div {
+   font-size: 30px;
+   font-weight: 700;
+}
+h1 {
+   font-family: "Le Murmure";
+   font-size: 50px;
+   letter-spacing: 5px;
+   margin-bottom: 20px;
+}
+h2 {
+   font-size: 25px;
+   text-decoration: underline;
+   margin-top: 40px;
+}
+h3 {
+   font-size: 20px;
+}
+h1,
+h2,
+h3 {
+   font-weight: 700;
+}
+
+img {
+   margin: 5px;
+}
+
+.list-up li {
+   margin-bottom: 10px;
+}
+.list-up-item1 {
+   background-color: rgb(241, 143, 209);
+}
+.list-up-item2 {
+   background-color: rgb(139, 223, 153);
+}
+.list-up-item3 {
+   background-color: rgb(182, 184, 182);
+}
+.italic {
+   font-style: italic;
+}
+.serif {
+   font-family: 'Source Serif Pro', serif;
+}
+.sans-serif {
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.cursive {
+   font-family: 'Caveat', cursive;
+}
+.fantasy {
+   font-family: 'Rubik Beastly', cursive;
+}
+.monospace {
+   font-family: 'Source Code Pro', monospace;
+}
+.serif.thirty,
+.serif.twenty,
+.serif.ten {
+   font-family: 'Source Serif Pro', serif;
+}
+.serif.thirty {
+   font-size: 30px;
+}
+.serif.twenty {
+   font-size: 20px;
+}
+.serif.ten {
+   font-size: 10px;
+}
+.example {
+   background-color: rgb(252, 252, 165);
+}
+.chapter {
+   margin-top: 20px;
+}
+.oblique {
+   font-style: oblique;
+}
+.example.pro {
+   font-family: 'Source Serif Pro', serif;
+}
+.example.larsseit {
+   font-family: "Larsseit";
+}
+.thin {
+   font-weight: 100;
+}
+.lite {
+   font-weight: 300;
+}
+.semibold {
+   font-weight: 600;
+}
+.bold {
+   font-weight: 700;
+}
+.black {
+   font-weight: 900;
+}
+
+.red {
+   color: red;
+}
+.numbers {
+   color: #666666;
+}
+.rgba {
+   color: rgba(3, 3, 3, 0.5);
+}
+
+.example.center > p {
+   color: green;
+}
+.example.left,
+.example.right,
+.example.justify {
+   margin-top: 10px;
+}
+.center {
+   text-align: center;
+}
+.left {
+   text-align: left;
+}
+.right {
+   text-align: right;
+}
+.justify {
+   text-align: justify;
+}
+
+.example.text p {
+   padding: 10px;
+}
+
+.line-through ~ p {
+   color: blue;
+}
+.line-through {
+   text-decoration: line-through;
+}
+.overline {
+   text-decoration: overline;
+}
+.underline {
+   text-decoration: underline;
+}
+
+.shadow {
+   text-shadow: 3px 5px 6px rgb(0, 0, 0);
+}
+
+.capitalize {
+   text-transform: capitalize;
+}
+.lowercase {
+   text-transform: lowercase;
+}
+.uppercase {
+   text-transform: uppercase;
+}
+
+.small {
+   line-height: 1.2;
+   margin-bottom: 10px;
+}
+.big {
+   line-height: 2.5;
+}
+
+.small-red + p {
+   color: blueviolet;
+}
+.small-red {
+   text-indent: 20px;
+}
+.medium-red {
+   text-indent: 40px;
+}
+.big-red {
+   text-indent: 60px;
+}
+
+.leter-small {
+   letter-spacing: 2px;
+}
+.leter-big {
+   letter-spacing: 8px;
+}
+.leter-small,
+.leter-big {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.word-small {
+   word-spacing: 10px;
+}
+.word-big {
+   word-spacing: 40px;
+}
+
+.star * {
+   color: orangered;
+}
+
+.chapter .lesson {
+   color: aqua;
+}
+
+footer {
+   margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
