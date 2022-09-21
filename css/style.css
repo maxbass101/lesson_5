@@ -17,28 +17,28 @@
    src: url("../fonts/Larsseit-Thin.woff2") format("woff2"), url("../fonts/Larsseit-Thin.woff");
    font-display: swap;
    font-weight: 100;
-   font-size: normal;
+   font-style: normal;
 }
 @font-face {
    font-family: "Larsseit";
    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff");
    font-display: swap;
    font-weight: 400;
-   font-size: normal;
+   font-style: normal;
 }
 @font-face {
    font-family: "Larsseit";
    src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff");
    font-display: swap;
    font-weight: 700;
-   font-size: normal;
+   font-style: normal;
 }
 @font-face {
    font-family: "Larsseit";
    src: url("../fonts/Larsseit-Light.woff2") format("woff2"), url("../fonts/Larsseit-Light.woff");
    font-display: swap;
    font-weight: 300;
-   font-size: normal;
+   font-style: normal;
 }
 
 body {
